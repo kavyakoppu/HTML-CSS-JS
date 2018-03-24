@@ -1,0 +1,74 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+#header-nav {
+    background-color: purple;
+    border-radius: 0;
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-text{
+    font-family: 'Sigmar One', cursive;
+    display: inline;
+    font-size: 3em;
+    vertical-align: middle;
+    color: pink;
+}
+
+#nav-list a{
+    text-align: center;
+}
+
+#nav-list a:hover, #nav-list a:active{
+    color: pink;
+}
+
+button.navbar-toggle {
+    margin-top: 12px;
+}
+
+button.navbar-toggle.collapsed, #header-nav .icon-bar {
+    border: 1px solid palevioletred;
+}
+
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    border: 1px solid palevioletred;
+    background-color: pink;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: pink;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: white;
+}
+
+.container .jumbotron {
+    background-color: white;
+    color: purple;
+    border-radius: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container .jumbotron h1{
+    font-size: 36px;
+}
+
+.container .jumbotron h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.jumbotron section {
+    background-color: pink;
+    color: black;
+    /* border: 1px solid purple; */
+    padding-bottom: 0px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+}
